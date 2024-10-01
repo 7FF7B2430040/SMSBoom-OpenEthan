@@ -27,4 +27,4 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-          python smsboom.py run -p ${{ secrets.NUMBER }} -t 32
+          python smsboom.py run -p ${{ secrets.NUMBER_1 }} -p ${{ secrets.NUMBER_2 }} -t 32
